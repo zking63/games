@@ -3,13 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title>Jeopardy</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="jeopardy.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('h2').hide();
+                $('h3').hide();
+                $('.box').click( function() {
+                    $('h2').show();
+                    $('#header').hide();
+                    $('.box').click( function() {
+                        $('h3').show();
+                        $('h2').hide();
+                        $('.box').click( function() {
+                            $('h3').hide();
+                        } );
+                    } );
+                } );
+            })
+        </script>
     </head>
     <body>
         <div id="board">
             <div class="row">
-                <div class="box"><h1 class="header">Food</h1></div>
+                <div class="box"><h1 id="header">Food</h1><h2>work?</h2><h3>hello</h3></div>
                 <div class="box"><h1 class="header">History</h1></div>
                 <div class="box"><h1 class="header">Disney</h1></div>
                 <div class="box"><h1 class="header">Random</h1></div>
@@ -40,12 +57,5 @@
             </div>
         </div>
     </body>
-
-
-    <script>
-        $('header1').on('click', function() { 
-            $('header2').css('color'); 
-        });
-    </script>
 </html>
 

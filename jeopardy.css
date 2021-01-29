@@ -19,6 +19,12 @@
     vertical-align: middle;
 }
 
+#header{
+    color: white;
+    margin: 30px 60px;
+    vertical-align: middle;
+}
+
 .header2{
     color: rgb(224, 166, 96);
     margin: 30px 60px;
@@ -29,6 +35,11 @@
     color: rgb(0, 51, 150);
     margin: 30px 60px;
     vertical-align: middle;
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 110px;
+    margin: 3px;
+    display: inline-block;
 }
 
 .box{
@@ -37,4 +48,18 @@
     height: 110px;
     margin: 3px;
     display: inline-block;
+}
+
+.box2{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 110px;
+    margin: 3px;
+    display: inline-block;
+    color:  rgb(0, 51, 150);
+}
+
+#het {
+    color: white;
+    vertical-align: middle;
 }
