@@ -1,0 +1,40 @@
+#board{
+    width: 1200px;
+    height: auto;
+    background-color: black;
+}
+
+.boxtitle{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 110px;
+    margin: 3px;
+    display: inline-block;
+    color: white;
+}
+
+.header{
+    color: white;
+    margin: 30px 60px;
+    vertical-align: middle;
+}
+
+.header2{
+    color: rgb(224, 166, 96);
+    margin: 30px 60px;
+    vertical-align: middle;
+}
+
+.headerclicked{
+    color: rgb(0, 51, 150);
+    margin: 30px 60px;
+    vertical-align: middle;
+}
+
+.box{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 110px;
+    margin: 3px;
+    display: inline-block;
+}
