@@ -205,6 +205,18 @@
                         } );
                     } );
                 } );
+
+                $('.final').click( function() {
+                    $('.final h1').hide();
+                    $('.final h3').show();
+                    $(this).click( function() {
+                        $('.final h4').show();
+                        $('.final h3').hide();
+                        $(this).click( function() {
+                            $('.final h4').hide();
+                        } );
+                    } );
+                } );
             })
         </script>
     </head>
@@ -240,6 +252,11 @@
                 <div class="disney5"><h2>$800</h2><h3>Cutest Disney character?</h3><h4>Pooh</h4></div>
                 <div class="random5"><h2>$800</h2><h3>Luci's favorite stuffed animal when she was 4?</h3><h4>Giraffie</h4></div>
             </div>
+        </div>
+        <div class="final">
+            <h1>FINAL JEOPARDY</h1>
+            <h3>What is Luci's favorite restaurant?</h3>
+            <h4>Panera</h4>
         </div>
     </body>
 </html>
