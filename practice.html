@@ -9,6 +9,7 @@
             $(document).ready(function(){
                 $('h3').hide();
                 $('h4').hide();
+                $('#dailyd1').hide();
                 $('.food2').click( function() {
                     $('.food2 h2').hide();
                     $('.food2 h3').show();
@@ -83,12 +84,16 @@
 
                 $('.history4').click( function() {
                     $('.history4 h2').hide();
-                    $('.history4 h3').show();
+                    $('#dailyd1').show();
                     $(this).click( function() {
-                        $('.history4 h4').show();
-                        $('.history4 h3').hide();
+                        $('.history4 h3').show();
+                        $('#dailyd1').hide();
                         $(this).click( function() {
-                            $('.history4 h4').hide();
+                            $('.history4 h4').show();
+                            $('.history4 h3').hide();
+                            $(this).click( function() {
+                                $('.history4 h4').hide();
+                            } );
                         } );
                     } );
                 } );
@@ -207,33 +212,33 @@
         <div id="board">
             <div class="row">
                 <div class="box"><h1>Food</h1></div>
-                <div class="box"><h1 class="header"><h1>History</h1></div>
-                <div class="box"><h1 class="header">Disney</h1></div>
-                <div class="box"><h1 class="header">Random</h1></div>
+                <div class="box"><h1>History</h1></div>
+                <div class="box"><h1>Disney</h1></div>
+                <div class="box"><h1>Random</h1></div>
             </div>
             <div class="row">
-                <div class="food2"><h2>$200</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="history2"><h2>$200</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="disney2"><h2>$200</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="random2"><h2>$200</h2><h3>work?</h3><h4>hello</h4></div>
+                <div class="food2"><h2>$200</h2><h3>Favorite meat?</h3><h4>Steak</h4></div>
+                <div class="history2"><h2>$200</h2><h3>Current grade?</h3><h4>3rd</h4></div>
+                <div class="disney2"><h2>$200</h2><h3>Favorite Disney park?</h3><h4>Magic Kingdom</h4></div>
+                <div class="random2"><h2>$200</h2><h3>Favorite toy?</h3><h4>Barbie</h4></div>
             </div>
             <div class="row">
-                <div class="food3"><h2>$400</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="history3"><h2>$400</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="disney3"><h2>$400</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="random3"><h2>$400</h2><h3>work?</h3><h4>hello</h4></div>
+                <div class="food3"><h2>$400</h2><h3>Favorite dessert?</h3><h4>Chocolate-covered strawberries</h4></div>
+                <div class="history3"><h2>$400</h2><h3>Best friend in kindergarten?</h3><h4>Caden</h4></div>
+                <div class="disney3"><h2>$400</h2><h3>Favorite Disney princess?</h3><h4>Rapunzel</h4></div>
+                <div class="random3"><h2>$400</h2><h3>Sport Luci played when she was three?</h3><h4>Gymnastics</h4></div>
             </div>
             <div class="row">
-                <div class="food4"><h2>$600</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="history4"><h2>$600</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="disney4"><h2>$600</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="random4"><h2>$600</h2><h3>work?</h3><h4>hello</h4></div>
+                <div class="food4"><h2>$600</h2><h3>Favorite drink?</h3><h4>Shirley Temple</h4></div>
+                <div class="history4"><h2>$600</h2><h3>Birth time (to the hour)?</h3><h1 id="dailyd1">DAILY DOUBLE!</h1><h4>9:08 PM</h4></div>
+                <div class="disney4"><h2>$600</h2><h3>Least favorite ride at Disney?</h3><h4>Crazy dino ride</h4></div>
+                <div class="random4"><h2>$600</h2><h3>Favorite color?</h3><h4>Purple</h4></div>
             </div>
             <div class="row">
-                <div class="food5"><h2>$800</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="history5"><h2>$800</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="disney5"><h2>$800</h2><h3>work?</h3><h4>hello</h4></div>
-                <div class="random5"><h2>$800</h2><h3>work?</h3><h4>hello</h4></div>
+                <div class="food5"><h2>$800</h2><h3>Favorite vegetable?</h3><h4>Corn on the cobb</h4></div>
+                <div class="history5"><h2>$800</h2><h3>Shoe size?</h3><h4>One</h4></div>
+                <div class="disney5"><h2>$800</h2><h3>Cutest Disney character?</h3><h4>Pooh</h4></div>
+                <div class="random5"><h2>$800</h2><h3>Luci's favorite stuffed animal when she was 4?</h3><h4>Giraffie</h4></div>
             </div>
         </div>
     </body>

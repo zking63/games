@@ -49,26 +49,18 @@
     vertical-align: middle;
 }
 
-.header3{
-    background-color: rgb(0, 51, 150);
-    width: 230px;
-    height: 110px;
-    margin: 3px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.header{
-    color: white;
-    margin: 30px 60px;
-    vertical-align: middle;
-}
-
 #board h2{
     color: rgb(224, 166, 96);
     margin: 30px 60px;
     vertical-align: middle;
     font-size: 40px;
+}
+
+#board #dailyd1 {
+    color:white;
+    margin: 20px 30px;
+    vertical-align: middle;
+    text-shadow: 15px;
 }
 
 #board h1{
@@ -79,14 +71,16 @@
 
 #board h3{
     color: rgb(224, 166, 96);
-    margin: 30px 60px;
+    margin: 20px 30px;
     vertical-align: middle;
-    font-size: 40px;
+    font-size: 20px;
+    text-align: center;
 }
 
 #board h4{
     color: rgb(224, 166, 96);
-    margin: 30px 60px;
+    margin: 30px 30px;
     vertical-align: middle;
-    font-size: 40px;
+    font-size: 20px;
+    text-align: center;
 }
