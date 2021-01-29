@@ -4,13 +4,58 @@
     background-color: black;
 }
 
-.boxtitle{
+.box, .food2, .history2, .disney2, .random2{
     background-color: rgb(0, 51, 150);
     width: 230px;
     height: 110px;
     margin: 3px;
     display: inline-block;
-    color: white;
+    vertical-align: middle;
+}
+
+.food3, .history3, .disney3, .random3{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 110px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.food4, .history4, .disney4, .random4{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 110px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.food5, .history5, .disney5, .random5{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 110px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header1{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 110px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header3{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 110px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .header{
@@ -19,47 +64,29 @@
     vertical-align: middle;
 }
 
-#header{
-    color: white;
-    margin: 30px 60px;
-    vertical-align: middle;
-}
-
-.header2{
+#board h2{
     color: rgb(224, 166, 96);
     margin: 30px 60px;
     vertical-align: middle;
+    font-size: 40px;
 }
 
-.headerclicked{
-    color: rgb(0, 51, 150);
+#board h1{
+    color: white;
     margin: 30px 60px;
     vertical-align: middle;
-    background-color: rgb(0, 51, 150);
-    width: 230px;
-    height: 110px;
-    margin: 3px;
-    display: inline-block;
 }
 
-.box{
-    background-color: rgb(0, 51, 150);
-    width: 230px;
-    height: 110px;
-    margin: 3px;
-    display: inline-block;
-}
-
-.box2{
-    background-color: rgb(0, 51, 150);
-    width: 230px;
-    height: 110px;
-    margin: 3px;
-    display: inline-block;
-    color:  rgb(0, 51, 150);
-}
-
-#het {
-    color: white;
+#board h3{
+    color: rgb(224, 166, 96);
+    margin: 30px 60px;
     vertical-align: middle;
+    font-size: 40px;
+}
+
+#board h4{
+    color: rgb(224, 166, 96);
+    margin: 30px 60px;
+    vertical-align: middle;
+    font-size: 40px;
 }
